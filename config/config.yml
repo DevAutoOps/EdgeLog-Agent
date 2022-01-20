@@ -1,0 +1,31 @@
+Server:                                 # Connection server properties
+  IP: 192.168.2.222
+  LogPort: :20204                        # Receive log port
+  MonitorPort: :20203                    # Receive monitoring data port
+Modules:
+  LogCollector:
+    Enable: true                        # Enable log collection
+    Targets:                            # Target object for collecting logs
+      - Nginx
+    TargetConfs:                        # The configuration file corresponding to the target object for collecting logs
+      - /usr/local/nginx/conf/nginx.conf
+  Monitor:
+    Enable: true                        # Enable server monitoring
+    Freq: 5000                          # Unit: ms, execution frequency
+    Check: true                         # Whether to detect the server hardware information. If false, only the survival status of the server will be detected
+    CheckFreq: 2                        # Once every n tests
+    Apps:                               # App to be monitored
+      - Nginx
+    AppProcess:                         # Corresponding app process
+      - nginx
+Logs:
+  Enable: true                          # Whether to enable log tool to collect output information
+  CloseStandardOutput: false            # Turn off the default print information on standard output
+  LogName: /logs/agent.log              # The path is relative to the program itself
+  TextFormat: json                      # Record log format. Parameter options: console and JSON. Console represents the general text format
+  TimePrecision: millisecond            # When logging, the related time precision. The parameter options are: second and millisecond, which represent seconds and milliseconds respectively. The default is the millisecond level
+  MaxSize: 10                           # The maximum size (in MB) of each log. If it exceeds this value, the system will automatically cut it
+  MaxBackups: 50                        # Maximum number of old logs retained
+  MaxAge: 90                            # Maximum number of days to keep old logs
+  Compress: false                       # Whether to compress the log backup
+  PrintLevel: 0                         # Log print level, 0 normal, 1 detailed

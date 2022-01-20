@@ -1,0 +1,7 @@
+syntax = "proto3";
+package cmd;
+option go_package = "./log";
+
+message LogData {
+  string Log = 1;
+}
