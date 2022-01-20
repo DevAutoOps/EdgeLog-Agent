@@ -10,8 +10,8 @@ Agent is developed by Golang，so Agent has the advantages the same as the EdgeL
 
 Agent designed to play as a role of a efficient instrument to collect  many application programs log statics. If you are interested in kowning more about Agent, [click](http://edgelog.devautoops.com/help/).
 
-## Details About Edgelog-Service
+## Others
 
-If you want to konw EdgeLog-service, [click](https://github.com/DevAutoOps/EdgeLog-Service).
+Service is anothet part of EdgeLog system, If you want to konw EdgeLog-service, [click](https://github.com/DevAutoOps/EdgeLog-Service).
 
 
