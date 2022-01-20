@@ -10,8 +10,8 @@ Agent是使用Go语言开发，因此Agent同EdgeLog管理系统后台一样具�
 
 Agent是作为EdgeLog日志管理系统的客户端应用日志采集利器，如需了解其特点、安装、使用帮助和相关文档，[点击](http://edgelog.devautoops.com/)了解更多。
 
-## 了解EdgeLog-Service
+## 了解Service
 
-想要了解EdgeLog系统的EdgeLog-Service，[点击](https://github.com/DevAutoOps/EdgeLog-Service)。
+Service是组成EdgeLog系统的后台处理程序，想要了解EdgeLog系统的Service，[点击](https://github.com/DevAutoOps/EdgeLog-Service)。
 
 
