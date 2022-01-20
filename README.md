@@ -1,4 +1,4 @@
-English | [简体中文](./README_zh.md) | [HOME](http://edgelog.devautoops.com) | [Documentation](http://edgelog.devautoops.com/help/)
+English | [简体中文](./README_zh.md) | [Home](http://edgelog.devautoops.com) | [Documentation](http://edgelog.devautoops.com/help/)
 
 # Agent Description
 
