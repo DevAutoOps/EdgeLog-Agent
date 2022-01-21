@@ -1,4 +1,4 @@
-简体中文 | [English](./README.md) | [官网](http://edgelog.devautoops.com) | [文档](http://edgelog.devautoops.com/help/)
+简体中文 | [English](./README.md) | [官网](https://edgelog.devautoops.com) | [文档](https://edgelog.devautoops.com/help/)
 
 # Agent介绍
 
@@ -8,7 +8,7 @@ Agent是使用Go语言开发，因此Agent同EdgeLog管理系统后台一样具�
 
 ## 了解Agent详情
 
-Agent是作为EdgeLog日志管理系统的客户端应用日志采集利器，如需了解其特点、安装、使用帮助和相关文档，[点击](http://edgelog.devautoops.com/)了解更多。
+Agent是作为EdgeLog日志管理系统的客户端应用日志采集利器，如需了解其特点、安装、使用帮助和相关文档，[点击](https://edgelog.devautoops.com/)了解更多。
 
 ## Others
 
